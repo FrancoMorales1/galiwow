@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d4d5a87.css",
+    "main.js": "/static/js/main.637932b4.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/folkard_.ttf": "/static/media/folkard_.66aa40b4f9f80c91b0e8.ttf",
+    "index.html": "/index.html",
+    "main.1d4d5a87.css.map": "/static/css/main.1d4d5a87.css.map",
+    "main.637932b4.js.map": "/static/js/main.637932b4.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d4d5a87.css",
+    "static/js/main.637932b4.js"
+  ]
+}
