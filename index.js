@@ -2,6 +2,8 @@ import express from 'express';
 import cors from 'cors'
 
 import personajesRoutes from './routes/personajes.js';
+import titulosRoutes from './routes/titulos.js';
+
 import './db/mongo.js';
 
 import errorHandler from './middlewares/errorHandler.js';
@@ -15,6 +17,7 @@ app.use(express.json());
 app.use(express.static('build'))
 
 app.use('/api/personajes', personajesRoutes);
+app.use('/api/titulos', titulosRoutes);
 
 app.use(notFoundHandler);
 app.use(errorHandler);
